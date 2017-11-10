@@ -5,11 +5,11 @@ Aim of this experiment is to create simple REST API which exposes functionality 
 Our solution is using this JSON data structure:
 ```json
 {
-    id: 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx',
-    created: new Date(),
-    updated: new Date(),
-    category: '',
-    comment: ''
+    "id": "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",
+    "created": "yyyy-MM-dd",
+    "updated": "yyyy-MM-dd",
+    "category": "",
+    "comment": ""
 }
 ```
 
