@@ -12,7 +12,7 @@ Everybody knows famous Titanic voyage and the consequences. In this hackathon yo
 
 We have prepared most of the enviroment for you for fast and simple start - check you environment, an Azure resource group, looks like this:
 
-![img0.png](img/01portal.PNG)
+![img0.png](img/01portal.png)
 
 
 
@@ -29,31 +29,31 @@ Choose "Open in Studio" from the right side to deploy experiment into your Machi
 
 Run the experiment (see previous image) and Evaluate model to see the output and precision - righ-click on the last module output pin and choose visualize:
 
-![img0.png](img/03mlexp_studio.PNG "")
+![img0.png](img/03mlexp_studio.png "")
 
-![img0.png](img/04mlexp_eval.PNG "")
+![img0.png](img/04mlexp_eval.png "")
 
 ### Step 2: Create Predictive Webservice
 
 Deploy experiment as Predictive Web Service - first turn into Predictive Experiment (to set up web services input and outputs)
 
-![img0.png](img/04mlexp_pred.PNG "")
+![img0.png](img/04mlexp_pred.png "")
 
 Now rewire the Webservice input to the Score module (since we don't need to do data prep anymore) and on the Score module uncheck the "Append score colmumns" (as we need only the scored labels column - the prediction only)
 
-![img0.png](img/05mlexp_pred_webservice.PNG "")
+![img0.png](img/05mlexp_pred_webservice.png "")
 
 Run the experiment once again (to apply ) changes and Deploy as Webservice:
 
-![img0.png](img/05mlexp_pred_webservice_deploy.PNG "")
+![img0.png](img/05mlexp_pred_webservice_deploy.png "")
 
 Choose valid ML Web Service plan (the billing goes towards this plan):
 
-![img0.png](img/05mlexp_pred_webservice_deploy_plan.PNG "")
+![img0.png](img/05mlexp_pred_webservice_deploy_plan.png "")
 
 Once the Web Service is deployed you should be able to acces details as API endpoint URI and key to access the Webservices - you will use them later in the Function App.
 
-![img0.png](img/06mlexp_pred_webservice_access.PNG "")
+![img0.png](img/06mlexp_pred_webservice_access.png "")
 
 
 
