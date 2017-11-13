@@ -101,6 +101,7 @@ Output:
 "{"Results":{"output1":[{"Survived":"-1","Scored Labels":"1","Scored Probabilities":"0.999785125255585"}]}}"
 ```
 
+![img0.png](img/07funcapp_res.png "")
 
 The whole function code looks like this: (file: xxx)
 
