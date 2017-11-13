@@ -1,11 +1,9 @@
-- This is preview file for Machine Learning part of Hackathon.
-
 # Machine Learning - model consume with Function App (15min hack)
 
 This experiment demonstrate how to create a Azure Machine Learning experiment, turn it to Predictive Web Service and consume via Function App in fast and easy way! 
 
 Business case: 
-_TODO_
+Everybody knows famous Titanic voyage and the consequences. In this hackathon you will make a Machine Learning experiment that takes Titanic passenger data and predicts whether somebody would survive or not based on features of the passenger.
 
 > Prerequisities:
 > - Azure Subscrption
@@ -71,7 +69,7 @@ Then lets select link "Custom function" in welcome screen.
 
 Insert the code to the function and take a look on these areas and change appropriatelly (endpoint and key form previous section):
 
-https://github.com/valda-z/funcapp-hackathon/blob/master/
+https://github.com/valda-z/funcapp-hackathon/blob/master/Machine_Learning/assets/http_ML_call_function.cs
 
 ```javascript
   const string apiKey = "### YOUR_KEY ###"; // Replace this with the API key for the web service
