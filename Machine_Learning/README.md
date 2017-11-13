@@ -66,6 +66,11 @@ Then lets select link "Custom function" in welcome screen.
 
 ![img0.png](img/img2.png "")
 
+Create a HTTP Triggered C# function:
+
+![img0.png](img/img3.png "")
+
+
 Insert the code to the function and take a look on these areas and change appropriatelly (endpoint and key form previous section):
 
 https://github.com/valda-z/funcapp-hackathon/blob/master/Machine_Learning/assets/http_ML_call_function.cs
