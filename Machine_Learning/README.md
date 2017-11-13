@@ -91,7 +91,10 @@ Input / Request Body
 
 You can use those above and/or change with your values to reflect changes and to see if you would have survived the Titanic voyage.
 
-When you hit Run (or Save and Run) you should see also the response which is the prediction for your particular parameters.
+When you hit Run (or Save and Run) you should see also the response which is the prediction for your particular parameters. Result values:
+- Survived - IGNORE THIS - dummy column just for compatibility
+- Scored Labels - prediction if the passenger survived (1) or not (0)
+- Probabilities - classification probability from alghorithm 
 
 Output:
 ```json
