@@ -26,6 +26,21 @@ In Azure Cosmos DB configuration screen define connection to Cosmos DB (same lik
 
 ![img0.png](img/img4.png "")
 
+Copy/Paste this function code to `ToDoList` function body:
+
+```javascript
+module.exports = function(context, req) {
+    context.log('JavaScript HTTP trigger function processed a request.');
+
+    context.res = {
+        // status: 200, /* Defaults to 200 */
+        body: context.bindings.inputDocument
+    };
+
+    context.done();
+};
+```
+
 ### Step 2: Define proxy rules for request routing
 
 #### Routing rule for API calls
