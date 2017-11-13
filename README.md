@@ -13,3 +13,5 @@ Contains two steps guideline describing REST API created in Function App:
 * Second experiment: Create Single Page Application and extend REST API interface which will list ToDo items and create new "ToDo" item in connected Azure Cosmos DB (document database). Description of steps: https://github.com/valda-z/funcapp-hackathon/blob/master/FunctionApp_SinglePage/README.md
 
 ### Machine Learning API experiment
+* experiment demonstrate how to create an Azure Machine Learning experiment, turn it to Predictive Web Service and consume via Function App in fast and easy way - you will predict if Titanic passanger survives or not based on input you give:
+https://github.com/valda-z/funcapp-hackathon/tree/master/Machine_Learning
