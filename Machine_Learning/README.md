@@ -1,4 +1,4 @@
-# Machine Learning - model consume with Function App (15min hack)
+# Machine Learning - model consume with Function App
 
 This experiment demonstrate how to create a Azure Machine Learning experiment, turn it to Predictive Web Service and consume via Function App in fast and easy way! 
 
