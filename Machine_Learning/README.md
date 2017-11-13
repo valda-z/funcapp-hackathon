@@ -7,13 +7,12 @@ Everybody knows famous Titanic voyage and the consequences. In this hackathon yo
 
 > Prerequisities:
 > - Azure Subscrption
-> - Machine Learning Workspace
-> - Machine Learning Web Service Plan
+> - [Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/studio/walkthrough-1-create-ml-workspace "")
+> - [Machine Learning Web Service Plan](https://docs.microsoft.com/en-us/azure/machine-learning/studio/publish-a-machine-learning-web-service#deploy-it-as-a-web-service)
 
 We have prepared most of the enviroment for you for fast and simple start - check you environment, an Azure resource group, looks like this:
 
 ![img0.png](img/01portal.PNG)
-
 
 
 
